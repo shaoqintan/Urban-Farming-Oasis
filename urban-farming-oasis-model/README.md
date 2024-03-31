@@ -1,9 +1,6 @@
 # urban-farming-oasis-model
 This is a Python Flask project developed for hosting the ML model trained for Soil Classification and Crops Recommendation.
 
-The Soil Classification model is adapted from a pre-trained model contributed by Mahmoud Reda ([See him here](https://www.kaggle.com/mahmoudreda55)) in Kaggle.
-The reference link to the model notebook is provided [here](https://www.kaggle.com/code/mahmoudreda55/soil-classification/notebook).
-
 For the Crops Recommendation module, we harnesses the power of LLM, in our case the ChatGPT API to recommend types and examples of crops can be farmed in an urban settings. 
 The prompt has been specifically designed and tested so that the LLM provide only the relevant information based on the geographical information, indoor farming contraints and other relevant concerns.
 The LLM Model we used here is `gpt-4-1106-preview`, the latest review.
